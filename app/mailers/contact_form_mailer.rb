@@ -6,8 +6,8 @@ class ContactFormMailer < ApplicationMailer
       @phone = contact_params[:phone]
       @message = contact_params[:message]
       mail(
-        from: @contact[:email], # Set the sender email dynamically
-        to: 'myhcim5@gmail.com',
+        from: @contact[:email],
+        to: 'smtpburner12@gmail.com',
         subject: 'New Contact Form Submission'
       )
     end

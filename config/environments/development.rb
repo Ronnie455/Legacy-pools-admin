@@ -6,8 +6,8 @@ Rails.application.configure do
     address: 'smtp.gmail.com',
     port: 587,
     domain: 'localhost:3000',
-    user_name: 'myhcim5@gmail.com',
-    password: 'avnruuelaoiyfzqy',
+    user_name: 'smtpburner12@gmail.com',
+    password: 'episvrsrmqgbsink',
     authentication: 'plain',
     enable_starttls_auto: true,
     openssl_verify_mode: OpenSSL::SSL::VERIFY_NONE
